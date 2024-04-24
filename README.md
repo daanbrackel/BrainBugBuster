@@ -48,7 +48,7 @@ git clone https://github.com/daanbrackel/BrainBugBuster
   ```
   for an explenation what each in/output is.
 
-- Next run the BBB.py script to visualize all data. As input you should use the output folder of the previous script. The output folder can be the same as the input folder if you want to keep everything together but it can also be a different folder if desired by the user. Assuming your still in the BrainBugBuster directorie, use:
+- Next run the BBB.py script to visualize all data. As input you should use the output folder of the previous script. The output folder **can not** be the same as the input folder, a different folder can be made by the user. Assuming your still in the BrainBugBuster directorie, use:
 
   ```
   python BBB.py "input_folder" "output_folder"
