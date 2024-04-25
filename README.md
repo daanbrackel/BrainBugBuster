@@ -1,5 +1,5 @@
 # BrainBugBusters
-This tool was specifically designed to analyse clinical samples from FFPE specimens, however it can be used to analyse any bacterial sample. the outcome of this tool will result in a stacked barplot showing the abundance of every species and/or genus in you sample. This tool was designed with Oxford Nanopore sequencing reads (MinION) and was not tested with any other sequencing data. The input should be a folder containing all barcodes in a fastq.gz format. 
+This tool was specifically designed to analyse clinical samples from FFPE specimens, however it can be used to analyse any bacterial sample. The outcome of this tool will result in a stacked barplot showing the abundance of every species and/or genus in your sample. This tool was designed with Oxford Nanopore sequencing reads (MinION), and was not tested with any other sequencing data. The input should be a folder containing all barcodes in a fastq.gz format. 
 
 # Installing plotly and EMU
 
