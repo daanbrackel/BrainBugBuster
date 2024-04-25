@@ -35,7 +35,7 @@ conda install emu
 # Installing all needed scripts
 Install all needed scripts (EMU_loop_script.py, GhostCode.py).
 ```
-git clone https://github.com/daanbrackel/BrainBugBusters
+git clone https://github.com/daanbrackel/BrainBugBusters-version-2
 ```
 # Running the full pipeline
 - start of by running the EMU_loop_script.py script. you can do this as followed (assuming your in the BrainBugBusters directorie where all scripts are located):
