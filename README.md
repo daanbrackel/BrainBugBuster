@@ -1,4 +1,4 @@
-# BrainBugBuster
+# BrainBugBusters
 Tool to analyse clinical samples from FFPE specimens. 
 
 # Installing plotly and EMU
@@ -33,25 +33,27 @@ conda install emu
 ```
 
 # Installing all needed scripts
-Install all needed scripts (EMU_loop_script.py, BBB.py).
+Install all needed scripts (EMU_loop_script.py, GhostCode.py).
 ```
-git clone https://github.com/daanbrackel/BrainBugBuster
+git clone https://github.com/daanbrackel/BrainBugBusters
 ```
 # Running the full pipeline
-- start of by running the EMU_loop_script.py script. you can do this as followed (assuming your in the BrainBugBuster directorie where all scripts are located):
+- start of by running the EMU_loop_script.py script. you can do this as followed (assuming your in the BrainBugBusters directorie where all scripts are located):
   ```
   python EMU_loop_script.py "input_folder" "output_folder" "emu_database_dir"
   ```
+  the input folder must be a folder containing all barcode files in a fastq.gz format
+  
   or enter 
   ```
   python EMU_loop_script.py --help
   ```
   for an explenation what each in/output is.
 
-- Next run the BBB.py script to visualize all data. As input you should use the output folder of the previous script. The output folder **can not** be the same as the input folder, a different folder can be made by the user. Assuming your still in the BrainBugBuster directorie, use:
+- Next run the GhostCode.py script to visualize all data. As input you should use the output folder of the previous script. The output folder **can not** be the same as the input folder, a different folder can be made by the user. Assuming your still in the BrainBugBuster directorie, use:
 
   ```
-  python BBB.py "input_folder" "output_folder"
+  python GhostCode.py "input_folder" "output_folder"
   ```
   or enter 
   ```
